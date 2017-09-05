@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body,html{ width:100%; height:100%;}
+header{
+	       width:1080px;
+		   height:78px;
+		   margin:0 auto;
+		   }
+ul{
+	   list-style:none;}
+.header_top li{ float:left;}
+.baidu_logo{
+	    width:150px;
+		height:60px;
+		margin-left:20px;
+		}
+.reg_logo{	    
+        width:700px;
+		height:60px;
+		}
+.reg_login{	    
+        width:210px;
+		height:50px;
+		font-size:12px;
+		color:#666666;
+		margin-top:10px;
+		text-align:right;
+		}
+.reg_bt{
+	     background:#f7f7f7;
+		 width:66px;
+		 height:32px;
+		 font-size:13px;
+		 color:#666666;
+		 font-weight:bold;
+		 border: solid #dddddd 1px;
+		 border-radius:8%;}
+.reg_hr{
+	     width:110%;
+		 margin-left:-6%;}
+section{
+	     width:1080px;
+		 height:392px;
+		 margin:0 auto;
+		 margin-top:20px;
+	}
+		 
+form{
+		 font-family:Arial, 宋体;
+		 font-size:14px;
+		 color:#666666;
+		 width:720px;
+		 height:392px;
+		 float:left;
+		 }
+form  label input{
+	     width:335px;
+		 height:36px;
+		 font-size:14px;
+		 font-family:Arial, 宋体;
+		 color:rgb(153,153,153);
+		 margin-top:24px;
+		 margin-left:8px;
+		 }
+section label{
+		 text-align:right;
+		 margin-left:35px;		 
+          }
+form span{
+	     font-size:12px;
+		 font-family:Arial, 宋体;
+		 color:rgb(153,153,153);
+		 }
+aside{
+	     width:272px;
+		 height:210px;
+		 float:right;
+		 border:solid #D1EEFF 1px;
+		 background:#F5FBFF;
+		 margin-top:24px;
+		 }
+.aside_top{
+	     width:242px;
+		 line-height:50px;
+		 border-bottom:solid #D1EEFF 1px;
+		 margin:0 auto;
+		 color:#666666;
+		 font-size:15px;
+		 margin-top:-17px;
+		 }
+.aside_top img{
+	      float:left;
+		  margin-top:8px;
+		  margin-left:-5px;}
+.aside_font1{
+	    font-size:12px;
+		color:#666666;
+		margin:5px 11px 5px;
+}
+.aside_font2{
+	   font-size:15px;
+	   color:#F18300;
+	   font-weight:bold;
+	   font-family:Arial, 宋体;
+	   margin:5px 11px 5px;
+	    }
+.check {
+		font-size:13px;
+		color:#666666;
+		width:400px;
+		height:100px;
+		height:85px;
+		margin-left:90px;
+		margin-top:20px;
+        }
+.check a{
+	    text-decoration:none;
+		color:#03F;
+	     }
+.check_bt{
+	     background:#3F89EC;
+		 border:none;
+		 border-radius:4%;
+		 width:338px;
+		 height:48px;
+		 font-size:16px;
+		 font-weight:bold;
+		 color:#FFF;
+		 font-family:Arial, 宋体;
+		 margin-top:20px;
+		 }
+footer{
+	     text-align:center;
+		 color:#8E77D2;
+		 font-family:Arial, 宋体;
+		 font-size:13px;
+		 margin-top:100px;}

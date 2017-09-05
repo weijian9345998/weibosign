@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body,html{ width:100%; height:100%;}
+ul li{list-style:none;}
+img{
+	 vertical-align:middle;
+	 border:none;
+	 }
+.contain{
+	 background:url(../imgs-weibo/reg_repeat_bg.png) repeat-x;
+	 height:100%;
+	 }  
+.contain header .top_img{
+	 height:3px;
+	 background:url(../imgs-weibo/top_line_bg.png);
+	 background-size:100%;
+	 border-bottom:1px solid #fff;
+	 }
+.top_ico{
+	 text-align:center;
+	 background:url(../imgs-weibo/bg_reg_wave.png) no-repeat center;
+	 height:186px;
+	 }
+.top_ico img{
+	 margin-top:35px;
+	 }
+section{
+	 width:860px;
+	 height:488px;
+	 padding:30px 40px;
+	 border-radius:5px;
+	 background:#FFF;
+	 margin:0 auto;
+	 border-bottom:solid #CCC 3px;
+	 }
+
+
+section .left_cont{
+	width:450px;
+	height:350px;
+	float:left;
+	}
+.left_cont .left_info_font{
+	font-size:12px;
+	font-family:微软雅黑;
+	line-height:24px;
+	color:#333;
+	margin-bottom:30px;
+	}
+.left_cont a{
+	color:#0A8CD4;
+	text-decoration:none;
+	font-size:12px;
+	padding-top:5px;
+	}
+.left_form{
+	font-size:15px;
+	font-family:微软雅黑;
+	}
+
+.left_form div{
+	width:150px;
+	height:28px;
+	text-align:right;
+	float:left;
+    }
+span{color:red;}
+.left_form label{
+	margin-left:140px;}
+.input{
+	 width:200px;
+	 height:28px;
+	 border:solid 1px #CCCCCC;
+	 border-radius:2px;
+	 font-size:13px;
+	 margin-left:0px;
+	 }
+.input_yzm{
+	 width:80px;
+	 height:28px;
+	 border:solid 1px #CCCCCC;
+	 border-radius:3px;
+	 }
+form button{
+	 width:200px;
+	 height:40px;
+	 background:#FFA00A;
+	 border:solid 1px #CCCCCC;
+	 border-radius:3px;
+	 font-size:15px;
+	 color:#FFF;
+	 font-weight:bolder;
+	 margin:10px 0;}
+section .st_title{
+	height:50px;
+	font-size:22px;
+	font-family:"Microsoft Yahei";
+	}
+section .st_title a{
+	 text-decoration:none;
+	 color:#333333;
+	 }
+section .title_line{
+	 color:#999;
+	 font-size:12px;
+	 margin:0 10px;
+	 display:inline-block;
+	 width:24px;
+	 text-align:center;
+	 }
+section .right_cont{
+	 width:260px;
+	 height:420px;
+	 background:url(../imgs-weibo/reg_vline.png) no-repeat;
+	 float:left;
+	 margin-left:140px;
+	 }
+.right_cont ul{
+	width:218px;
+	height:414px;
+	float:left;
+	margin-left:32px;
+	font-family:微软雅黑;
+	
+	}
+.right_cont a{ 
+    color:#0A8CD4;
+	text-decoration:none;
+	}
+.left_top_font{
+	font-size:14px;
+	line-height:40px;
+	margin-top:20px;
+	 }
+.left_line{
+	border-bottom:dotted 1px grey;
+	}
+.left_mid_font{
+	font-size:10px;
+	margin-top:10px;
+	}
+.right_cont div{
+	background:url(../imgs-weibo/bg_listNum.png) no-repeat;
+	width:20px;
+	height:20px;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	float:left;
+	margin-top:2px;
+	margin-right:5px;
+	}
+footer{
+     width:940px;
+	 height:30px;
+	 margin:0 auto;
+	 font-size:10px;
+	 font-family:微软雅黑;
+	 color:#666;
+	 margin-top:20px;}
+.foot_select{
+	float:right;
+	}
+a:hover{
+	text-decoration:underline;
+	}
